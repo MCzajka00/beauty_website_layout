@@ -608,6 +608,12 @@ body {
   justify-content: flex-start;
 }
 
+@media (max-width: 800px) {
+  .products {
+    flex-direction: column;
+  }
+}
+
 .box-main .button-products {
   max-width: 1206px;
   max-height: 59px;
@@ -726,4 +732,17 @@ footer {
   .footer-links {
     flex-direction: column;
   }
+}
+
+.footer-copyrights {
+  width: 1206px;
+  height: 78.31px;
+  background: white;
+  margin-top: 32px;
+  color: #818181;
+  font-size: 11px;
+  font-family: sans-serif;
+  text-decoration: none;
+  display: flex;
+  align-items: flex-end;
 }
